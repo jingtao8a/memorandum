@@ -11,10 +11,10 @@
 #import "DetailViewController.h"
 
 
-@interface MyTableViewController()
+@interface MyTableViewController()<UITableViewDelegate, UITableViewDataSource>
 
-@property(nonatomic, strong) BackData *backData;
-
+@property (nonatomic, strong) BackData *backData;
+@property (nonatomic, strong) UITableView *tableView;
 @end
 
 @implementation MyTableViewController
@@ -45,7 +45,15 @@
     [self setManage];
     NSMutableArray* tmpData = [self getData];
     if (tmpData) [self.backData setData:tmpData];
-    
+    //add rightBarButtonItem to self.navigationItem
+    UIBarButtonItem *rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"add" style:UIBarButtonItemStylePlain target:self action:@selector(prepareForSegue)];
+    self.navigationItem.rightBarButtonItem = rightBarButtonItem;
+    //add self.tableView to self.view
+    self.tableView = [[UITableView alloc] initWithFrame:self.view.bounds];
+    self.tableView.delegate = self;
+    self.tableView.dataSource = self;
+    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
+    [self.view addSubview:self.tableView];
     //添加收听，当程序结束时，保存数据
     UIApplication *app = [UIApplication sharedApplication];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(saveData) name:UIApplicationWillTerminateNotification object:app];
@@ -83,13 +91,12 @@
 }
 
 #pragma mark -segue
--(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
-    if ([segue.identifier isEqualToString:@"Add"]) {
+-(void)prepareForSegue{
         //&&&&&&&
-        TextViewController* dtvc = segue.destinationViewController;
-        dtvc.backData = self.backData;
-        NSLog(@"prepareForSegue\n");
-    }
+    TextViewController* dtvc = [[TextViewController alloc] init];
+    dtvc.backData = self.backData;
+    [self.navigationController pushViewController:dtvc animated:YES];
+    NSLog(@"prepareForSegue\n");
 }
 
 #pragma mark -UITableView dataSource

@@ -66,6 +66,10 @@
     */
     [self.view addSubview:self.collectionView];
     
+    //add rightBarButton to self.navigationItem
+    UIBarButtonItem *rightBarButton = [[UIBarButtonItem alloc] initWithTitle:@"save" style:UIBarButtonItemStylePlain target:self action:@selector(buttonSave:)];
+    self.navigationItem.rightBarButtonItem = rightBarButton;
+    
     //add addImageButton to self.view
     rect = CGRectMake(WIDTH_VIEW * 0.6, HEIGHT_VIEW * 0.1, WIDTH_VIEW * 0.4, HEIGHT_VIEW * 0.2);
     inRect = CGRectInset(rect, RADIUS, RADIUS);
@@ -76,12 +80,13 @@
     self.addImageButton.backgroundColor = [UIColor whiteColor];
     [self.addImageButton addTarget:self action:@selector(addImage) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:self.addImageButton];
+    
     NSLog(@"TextView viewDidLoad\n");
 }
 
 #pragma mark -button action
 //saveButton action
-- (IBAction)save:(UIBarButtonItem *)sender {
+- (void)buttonSave:(UIBarButtonItem *)sender {
     NSMutableArray *tmpArray = [[NSMutableArray alloc] init];
     for (UIImage *tmpImage in self.imageArray) {
         NSData *data = UIImageJPEGRepresentation(tmpImage, 1.0f);

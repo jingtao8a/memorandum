@@ -7,6 +7,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MyCollectionViewLayout : UICollectionViewFlowLayout
+@interface MEMMyCollectionViewLayout : UICollectionViewFlowLayout
 
 @end

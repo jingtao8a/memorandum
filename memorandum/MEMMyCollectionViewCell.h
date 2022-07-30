@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MyCollectionViewCell : UICollectionViewCell
+@interface MEMMyCollectionViewCell : UICollectionViewCell
 
 @property (nonatomic, strong) UIImageView *image;
 

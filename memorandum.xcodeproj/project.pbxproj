@@ -7,20 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		445E349A288E401A0023932D /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 445E3499288E401A0023932D /* data.plist */; };
-		445E349C288E53C70023932D /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 445E349B288E53C70023932D /* DetailsViewController.m */; };
-		446C28B828900B950042FA31 /* MyCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 446C28B728900B950042FA31 /* MyCollectionViewLayout.m */; };
-		446C28BB28900D480042FA31 /* MyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 446C28BA28900D480042FA31 /* MyCollectionViewCell.m */; };
+		446C28B828900B950042FA31 /* MEMMyCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 446C28B728900B950042FA31 /* MEMMyCollectionViewLayout.m */; };
+		446C28BB28900D480042FA31 /* MEMMyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 446C28BA28900D480042FA31 /* MEMMyCollectionViewCell.m */; };
 		4478D555288D841000DF0552 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4478D554288D841000DF0552 /* AppDelegate.m */; };
-		4478D561288D841000DF0552 /* memorandum.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4478D55F288D841000DF0552 /* memorandum.xcdatamodeld */; };
 		4478D563288D841400DF0552 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4478D562288D841400DF0552 /* Assets.xcassets */; };
 		4478D569288D841400DF0552 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4478D568288D841400DF0552 /* main.m */; };
 		4478D573288D841400DF0552 /* memorandumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4478D572288D841400DF0552 /* memorandumTests.m */; };
 		4478D57D288D841400DF0552 /* memorandumUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4478D57C288D841400DF0552 /* memorandumUITests.m */; };
 		4478D57F288D841400DF0552 /* memorandumUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4478D57E288D841400DF0552 /* memorandumUITestsLaunchTests.m */; };
-		4478D58C288D855700DF0552 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4478D58B288D855700DF0552 /* MyTableViewController.m */; };
-		4478D58F288D861C00DF0552 /* BackData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4478D58E288D861C00DF0552 /* BackData.m */; };
-		4478D594288D877D00DF0552 /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4478D593288D877D00DF0552 /* TextViewController.m */; };
+		4478D58C288D855700DF0552 /* MEMTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4478D58B288D855700DF0552 /* MEMTableViewController.m */; };
+		4478D58F288D861C00DF0552 /* MEMBackData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4478D58E288D861C00DF0552 /* MEMBackData.m */; };
+		4478D594288D877D00DF0552 /* MEMTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4478D593288D877D00DF0552 /* MEMTextViewController.m */; };
+		44A626BE2894F24000E7E2B8 /* MEMMyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A626BD2894F24000E7E2B8 /* MEMMyTableViewCell.m */; };
+		44EACDD02893730F0082FBAD /* MEMDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EACDCF2893730F0082FBAD /* MEMDataItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,17 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		445E3499288E401A0023932D /* data.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
-		445E349B288E53C70023932D /* DetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
-		445E349D288E53D90023932D /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		446C28B728900B950042FA31 /* MyCollectionViewLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewLayout.m; sourceTree = "<group>"; };
-		446C28B928900BAC0042FA31 /* MyCollectionViewLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewLayout.h; sourceTree = "<group>"; };
-		446C28BA28900D480042FA31 /* MyCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCell.m; sourceTree = "<group>"; };
-		446C28BC28900D630042FA31 /* MyCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCell.h; sourceTree = "<group>"; };
+		446C28B728900B950042FA31 /* MEMMyCollectionViewLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEMMyCollectionViewLayout.m; sourceTree = "<group>"; };
+		446C28B928900BAC0042FA31 /* MEMMyCollectionViewLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEMMyCollectionViewLayout.h; sourceTree = "<group>"; };
+		446C28BA28900D480042FA31 /* MEMMyCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEMMyCollectionViewCell.m; sourceTree = "<group>"; };
+		446C28BC28900D630042FA31 /* MEMMyCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEMMyCollectionViewCell.h; sourceTree = "<group>"; };
 		4478D550288D841000DF0552 /* memorandum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = memorandum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4478D553288D841000DF0552 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4478D554288D841000DF0552 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4478D560288D841000DF0552 /* memorandum.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = memorandum.xcdatamodel; sourceTree = "<group>"; };
 		4478D562288D841400DF0552 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4478D567288D841400DF0552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4478D568288D841400DF0552 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,12 +55,17 @@
 		4478D578288D841400DF0552 /* memorandumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memorandumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4478D57C288D841400DF0552 /* memorandumUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = memorandumUITests.m; sourceTree = "<group>"; };
 		4478D57E288D841400DF0552 /* memorandumUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = memorandumUITestsLaunchTests.m; sourceTree = "<group>"; };
-		4478D58B288D855700DF0552 /* MyTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
-		4478D58D288D857500DF0552 /* MyTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
-		4478D58E288D861C00DF0552 /* BackData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackData.m; sourceTree = "<group>"; };
-		4478D590288D862C00DF0552 /* BackData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackData.h; sourceTree = "<group>"; };
-		4478D593288D877D00DF0552 /* TextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
-		4478D595288D879200DF0552 /* TextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
+		4478D58B288D855700DF0552 /* MEMTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEMTableViewController.m; sourceTree = "<group>"; };
+		4478D58D288D857500DF0552 /* MEMTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEMTableViewController.h; sourceTree = "<group>"; };
+		4478D58E288D861C00DF0552 /* MEMBackData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEMBackData.m; sourceTree = "<group>"; };
+		4478D590288D862C00DF0552 /* MEMBackData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEMBackData.h; sourceTree = "<group>"; };
+		4478D593288D877D00DF0552 /* MEMTextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEMTextViewController.m; sourceTree = "<group>"; };
+		4478D595288D879200DF0552 /* MEMTextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEMTextViewController.h; sourceTree = "<group>"; };
+		44A626BC2894C59200E7E2B8 /* MEMTextViewControllerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEMTextViewControllerDelegate.h; sourceTree = "<group>"; };
+		44A626BD2894F24000E7E2B8 /* MEMMyTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEMMyTableViewCell.m; sourceTree = "<group>"; };
+		44A626BF2894F25B00E7E2B8 /* MEMMyTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEMMyTableViewCell.h; sourceTree = "<group>"; };
+		44EACDCF2893730F0082FBAD /* MEMDataItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEMDataItem.m; sourceTree = "<group>"; };
+		44EACDD1289373370082FBAD /* MEMDataItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEMDataItem.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,23 +118,24 @@
 			children = (
 				4478D553288D841000DF0552 /* AppDelegate.h */,
 				4478D554288D841000DF0552 /* AppDelegate.m */,
-				445E3499288E401A0023932D /* data.plist */,
-				4478D58E288D861C00DF0552 /* BackData.m */,
-				4478D590288D862C00DF0552 /* BackData.h */,
-				4478D593288D877D00DF0552 /* TextViewController.m */,
-				446C28BA28900D480042FA31 /* MyCollectionViewCell.m */,
-				446C28BC28900D630042FA31 /* MyCollectionViewCell.h */,
-				446C28B728900B950042FA31 /* MyCollectionViewLayout.m */,
-				446C28B928900BAC0042FA31 /* MyCollectionViewLayout.h */,
-				4478D595288D879200DF0552 /* TextViewController.h */,
-				4478D58B288D855700DF0552 /* MyTableViewController.m */,
-				4478D58D288D857500DF0552 /* MyTableViewController.h */,
+				4478D58E288D861C00DF0552 /* MEMBackData.m */,
+				44EACDCF2893730F0082FBAD /* MEMDataItem.m */,
+				44EACDD1289373370082FBAD /* MEMDataItem.h */,
+				4478D590288D862C00DF0552 /* MEMBackData.h */,
+				4478D593288D877D00DF0552 /* MEMTextViewController.m */,
+				44A626BD2894F24000E7E2B8 /* MEMMyTableViewCell.m */,
+				44A626BF2894F25B00E7E2B8 /* MEMMyTableViewCell.h */,
+				44A626BC2894C59200E7E2B8 /* MEMTextViewControllerDelegate.h */,
+				446C28BA28900D480042FA31 /* MEMMyCollectionViewCell.m */,
+				446C28BC28900D630042FA31 /* MEMMyCollectionViewCell.h */,
+				446C28B728900B950042FA31 /* MEMMyCollectionViewLayout.m */,
+				446C28B928900BAC0042FA31 /* MEMMyCollectionViewLayout.h */,
+				4478D595288D879200DF0552 /* MEMTextViewController.h */,
+				4478D58B288D855700DF0552 /* MEMTableViewController.m */,
+				4478D58D288D857500DF0552 /* MEMTableViewController.h */,
 				4478D562288D841400DF0552 /* Assets.xcassets */,
 				4478D567288D841400DF0552 /* Info.plist */,
 				4478D568288D841400DF0552 /* main.m */,
-				4478D55F288D841000DF0552 /* memorandum.xcdatamodeld */,
-				445E349B288E53C70023932D /* DetailsViewController.m */,
-				445E349D288E53D90023932D /* DetailViewController.h */,
 			);
 			path = memorandum;
 			sourceTree = "<group>";
@@ -260,7 +261,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4478D563288D841400DF0552 /* Assets.xcassets in Resources */,
-				445E349A288E401A0023932D /* data.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,15 +285,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4478D58F288D861C00DF0552 /* BackData.m in Sources */,
+				4478D58F288D861C00DF0552 /* MEMBackData.m in Sources */,
 				4478D569288D841400DF0552 /* main.m in Sources */,
-				4478D58C288D855700DF0552 /* MyTableViewController.m in Sources */,
-				4478D594288D877D00DF0552 /* TextViewController.m in Sources */,
-				446C28BB28900D480042FA31 /* MyCollectionViewCell.m in Sources */,
-				4478D561288D841000DF0552 /* memorandum.xcdatamodeld in Sources */,
+				4478D58C288D855700DF0552 /* MEMTableViewController.m in Sources */,
+				4478D594288D877D00DF0552 /* MEMTextViewController.m in Sources */,
+				446C28BB28900D480042FA31 /* MEMMyCollectionViewCell.m in Sources */,
+				44A626BE2894F24000E7E2B8 /* MEMMyTableViewCell.m in Sources */,
 				4478D555288D841000DF0552 /* AppDelegate.m in Sources */,
-				446C28B828900B950042FA31 /* MyCollectionViewLayout.m in Sources */,
-				445E349C288E53C70023932D /* DetailsViewController.m in Sources */,
+				44EACDD02893730F0082FBAD /* MEMDataItem.m in Sources */,
+				446C28B828900B950042FA31 /* MEMMyCollectionViewLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -596,19 +596,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		4478D55F288D841000DF0552 /* memorandum.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				4478D560288D841000DF0552 /* memorandum.xcdatamodel */,
-			);
-			currentVersion = 4478D560288D841000DF0552 /* memorandum.xcdatamodel */;
-			path = memorandum.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 4478D548288D841000DF0552 /* Project object */;
 }

@@ -5,13 +5,13 @@
 //  Created by yuxintao on 2022/7/26.
 //
 
-#import "MyCollectionViewCell.h"
+#import "MEMMyCollectionViewCell.h"
 
-@interface MyCollectionViewCell()
+@interface MEMMyCollectionViewCell ()
 
 @end
 
-@implementation MyCollectionViewCell
+@implementation MEMMyCollectionViewCell
 
 -(UIImageView *)image{
     if (!_image) _image = [[UIImageView alloc] init];

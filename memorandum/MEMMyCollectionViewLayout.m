@@ -5,13 +5,13 @@
 //  Created by yuxintao on 2022/7/26.
 //
 
-#import "MyCollectionViewLayout.h"
+#import "MEMMyCollectionViewLayout.h"
 
-@interface MyCollectionViewLayout()
+@interface MEMMyCollectionViewLayout ()
 
 @end
 
-@implementation MyCollectionViewLayout
+@implementation MEMMyCollectionViewLayout
 
 -(instancetype)init{
     self = [super init];

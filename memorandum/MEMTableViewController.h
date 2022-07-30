@@ -7,6 +7,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MyTableViewController : UIViewController
+@interface MEMTableViewController : UIViewController
 
 @end

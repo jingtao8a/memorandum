@@ -7,21 +7,26 @@
 
 #import <XCTest/XCTest.h>
 
+
 @interface memorandumUITestsLaunchTests : XCTestCase
 
 @end
 
+
 @implementation memorandumUITestsLaunchTests
 
-+ (BOOL)runsForEachTargetApplicationUIConfiguration {
++ (BOOL)runsForEachTargetApplicationUIConfiguration
+{
     return YES;
 }
 
-- (void)setUp {
+- (void)setUp
+{
     self.continueAfterFailure = NO;
 }
 
-- (void)testLaunch {
+- (void)testLaunch
+{
     XCUIApplication *app = [[XCUIApplication alloc] init];
     [app launch];
 

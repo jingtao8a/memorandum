@@ -6,11 +6,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MEMNote.h"
 
-@class MEMDataItem;
 
-@interface MEMMyTableViewCell : UITableViewCell
+@interface MEMNoteListTableViewCell : UITableViewCell
 
--(void)configWithDataItem:(MEMDataItem *)dataItem;
+- (void)configWithNote:(MEMNote *)note;
 
 @end

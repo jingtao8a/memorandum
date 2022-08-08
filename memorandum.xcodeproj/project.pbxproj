@@ -7,19 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		446C28B828900B950042FA31 /* MEMMyCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 446C28B728900B950042FA31 /* MEMMyCollectionViewLayout.m */; };
-		446C28BB28900D480042FA31 /* MEMMyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 446C28BA28900D480042FA31 /* MEMMyCollectionViewCell.m */; };
-		4478D555288D841000DF0552 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4478D554288D841000DF0552 /* AppDelegate.m */; };
+		446C28BB28900D480042FA31 /* MEMNoteViewCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 446C28BA28900D480042FA31 /* MEMNoteViewCollectionViewCell.m */; };
+		4478D555288D841000DF0552 /* MEMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4478D554288D841000DF0552 /* MEMAppDelegate.m */; };
 		4478D563288D841400DF0552 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4478D562288D841400DF0552 /* Assets.xcassets */; };
 		4478D569288D841400DF0552 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4478D568288D841400DF0552 /* main.m */; };
 		4478D573288D841400DF0552 /* memorandumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4478D572288D841400DF0552 /* memorandumTests.m */; };
 		4478D57D288D841400DF0552 /* memorandumUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4478D57C288D841400DF0552 /* memorandumUITests.m */; };
 		4478D57F288D841400DF0552 /* memorandumUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4478D57E288D841400DF0552 /* memorandumUITestsLaunchTests.m */; };
-		4478D58C288D855700DF0552 /* MEMTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4478D58B288D855700DF0552 /* MEMTableViewController.m */; };
-		4478D58F288D861C00DF0552 /* MEMBackData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4478D58E288D861C00DF0552 /* MEMBackData.m */; };
-		4478D594288D877D00DF0552 /* MEMTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4478D593288D877D00DF0552 /* MEMTextViewController.m */; };
-		44A626BE2894F24000E7E2B8 /* MEMMyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A626BD2894F24000E7E2B8 /* MEMMyTableViewCell.m */; };
-		44EACDD02893730F0082FBAD /* MEMDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EACDCF2893730F0082FBAD /* MEMDataItem.m */; };
+		4478D58C288D855700DF0552 /* MEMNoteListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4478D58B288D855700DF0552 /* MEMNoteListViewController.m */; };
+		4478D58F288D861C00DF0552 /* MEMNoteList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4478D58E288D861C00DF0552 /* MEMNoteList.m */; };
+		4478D594288D877D00DF0552 /* MEMNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4478D593288D877D00DF0552 /* MEMNoteViewController.m */; };
+		44A626BE2894F24000E7E2B8 /* MEMNoteListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A626BD2894F24000E7E2B8 /* MEMNoteListTableViewCell.m */; };
+		44AC9C78289B998A00698EFD /* MEMPresentBigImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44AC9C77289B998A00698EFD /* MEMPresentBigImageViewController.m */; };
+		44AC9C83289BE8DC00698EFD /* MEMNoteViewCustomTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44AC9C82289BE8DC00698EFD /* MEMNoteViewCustomTextView.m */; };
+		44AC9C88289BEE6100698EFD /* MEMNoteViewCustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 44AC9C87289BEE6100698EFD /* MEMNoteViewCustomTextField.m */; };
+		44AC9C8C289BF04800698EFD /* MEMNoteViewCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44AC9C8B289BF04800698EFD /* MEMNoteViewCustomView.m */; };
+		44EACDD02893730F0082FBAD /* MEMNote.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EACDCF2893730F0082FBAD /* MEMNote.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,13 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		446C28B728900B950042FA31 /* MEMMyCollectionViewLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEMMyCollectionViewLayout.m; sourceTree = "<group>"; };
-		446C28B928900BAC0042FA31 /* MEMMyCollectionViewLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEMMyCollectionViewLayout.h; sourceTree = "<group>"; };
-		446C28BA28900D480042FA31 /* MEMMyCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEMMyCollectionViewCell.m; sourceTree = "<group>"; };
-		446C28BC28900D630042FA31 /* MEMMyCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEMMyCollectionViewCell.h; sourceTree = "<group>"; };
+		446C28BA28900D480042FA31 /* MEMNoteViewCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEMNoteViewCollectionViewCell.m; sourceTree = "<group>"; };
+		446C28BC28900D630042FA31 /* MEMNoteViewCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEMNoteViewCollectionViewCell.h; sourceTree = "<group>"; };
 		4478D550288D841000DF0552 /* memorandum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = memorandum.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4478D553288D841000DF0552 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4478D554288D841000DF0552 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4478D553288D841000DF0552 /* MEMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEMAppDelegate.h; sourceTree = "<group>"; };
+		4478D554288D841000DF0552 /* MEMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEMAppDelegate.m; sourceTree = "<group>"; };
 		4478D562288D841400DF0552 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4478D567288D841400DF0552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4478D568288D841400DF0552 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -55,17 +56,25 @@
 		4478D578288D841400DF0552 /* memorandumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memorandumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4478D57C288D841400DF0552 /* memorandumUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = memorandumUITests.m; sourceTree = "<group>"; };
 		4478D57E288D841400DF0552 /* memorandumUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = memorandumUITestsLaunchTests.m; sourceTree = "<group>"; };
-		4478D58B288D855700DF0552 /* MEMTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEMTableViewController.m; sourceTree = "<group>"; };
-		4478D58D288D857500DF0552 /* MEMTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEMTableViewController.h; sourceTree = "<group>"; };
-		4478D58E288D861C00DF0552 /* MEMBackData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEMBackData.m; sourceTree = "<group>"; };
-		4478D590288D862C00DF0552 /* MEMBackData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEMBackData.h; sourceTree = "<group>"; };
-		4478D593288D877D00DF0552 /* MEMTextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEMTextViewController.m; sourceTree = "<group>"; };
-		4478D595288D879200DF0552 /* MEMTextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEMTextViewController.h; sourceTree = "<group>"; };
-		44A626BC2894C59200E7E2B8 /* MEMTextViewControllerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEMTextViewControllerDelegate.h; sourceTree = "<group>"; };
-		44A626BD2894F24000E7E2B8 /* MEMMyTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEMMyTableViewCell.m; sourceTree = "<group>"; };
-		44A626BF2894F25B00E7E2B8 /* MEMMyTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEMMyTableViewCell.h; sourceTree = "<group>"; };
-		44EACDCF2893730F0082FBAD /* MEMDataItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEMDataItem.m; sourceTree = "<group>"; };
-		44EACDD1289373370082FBAD /* MEMDataItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEMDataItem.h; sourceTree = "<group>"; };
+		4478D58B288D855700DF0552 /* MEMNoteListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEMNoteListViewController.m; sourceTree = "<group>"; };
+		4478D58D288D857500DF0552 /* MEMNoteListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEMNoteListViewController.h; sourceTree = "<group>"; };
+		4478D58E288D861C00DF0552 /* MEMNoteList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEMNoteList.m; sourceTree = "<group>"; };
+		4478D590288D862C00DF0552 /* MEMNoteList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEMNoteList.h; sourceTree = "<group>"; };
+		4478D593288D877D00DF0552 /* MEMNoteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEMNoteViewController.m; sourceTree = "<group>"; };
+		4478D595288D879200DF0552 /* MEMNoteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEMNoteViewController.h; sourceTree = "<group>"; };
+		44A626BC2894C59200E7E2B8 /* MEMNoteViewControllerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEMNoteViewControllerDelegate.h; sourceTree = "<group>"; };
+		44A626BD2894F24000E7E2B8 /* MEMNoteListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEMNoteListTableViewCell.m; sourceTree = "<group>"; };
+		44A626BF2894F25B00E7E2B8 /* MEMNoteListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEMNoteListTableViewCell.h; sourceTree = "<group>"; };
+		44AC9C77289B998A00698EFD /* MEMPresentBigImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEMPresentBigImageViewController.m; sourceTree = "<group>"; };
+		44AC9C79289B99BF00698EFD /* MEMPresentBigImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEMPresentBigImageViewController.h; sourceTree = "<group>"; };
+		44AC9C81289BE8C100698EFD /* MEMNoteViewCustomTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEMNoteViewCustomTextView.h; sourceTree = "<group>"; };
+		44AC9C82289BE8DC00698EFD /* MEMNoteViewCustomTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEMNoteViewCustomTextView.m; sourceTree = "<group>"; };
+		44AC9C87289BEE6100698EFD /* MEMNoteViewCustomTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEMNoteViewCustomTextField.m; sourceTree = "<group>"; };
+		44AC9C89289BEE7B00698EFD /* MEMNoteViewCustomTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEMNoteViewCustomTextField.h; sourceTree = "<group>"; };
+		44AC9C8A289BF04800698EFD /* MEMNoteViewCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEMNoteViewCustomView.h; sourceTree = "<group>"; };
+		44AC9C8B289BF04800698EFD /* MEMNoteViewCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEMNoteViewCustomView.m; sourceTree = "<group>"; };
+		44EACDCF2893730F0082FBAD /* MEMNote.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEMNote.m; sourceTree = "<group>"; };
+		44EACDD1289373370082FBAD /* MEMNote.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEMNote.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,23 +125,29 @@
 		4478D552288D841000DF0552 /* memorandum */ = {
 			isa = PBXGroup;
 			children = (
-				4478D553288D841000DF0552 /* AppDelegate.h */,
-				4478D554288D841000DF0552 /* AppDelegate.m */,
-				4478D58E288D861C00DF0552 /* MEMBackData.m */,
-				44EACDCF2893730F0082FBAD /* MEMDataItem.m */,
-				44EACDD1289373370082FBAD /* MEMDataItem.h */,
-				4478D590288D862C00DF0552 /* MEMBackData.h */,
-				4478D593288D877D00DF0552 /* MEMTextViewController.m */,
-				44A626BD2894F24000E7E2B8 /* MEMMyTableViewCell.m */,
-				44A626BF2894F25B00E7E2B8 /* MEMMyTableViewCell.h */,
-				44A626BC2894C59200E7E2B8 /* MEMTextViewControllerDelegate.h */,
-				446C28BA28900D480042FA31 /* MEMMyCollectionViewCell.m */,
-				446C28BC28900D630042FA31 /* MEMMyCollectionViewCell.h */,
-				446C28B728900B950042FA31 /* MEMMyCollectionViewLayout.m */,
-				446C28B928900BAC0042FA31 /* MEMMyCollectionViewLayout.h */,
-				4478D595288D879200DF0552 /* MEMTextViewController.h */,
-				4478D58B288D855700DF0552 /* MEMTableViewController.m */,
-				4478D58D288D857500DF0552 /* MEMTableViewController.h */,
+				4478D553288D841000DF0552 /* MEMAppDelegate.h */,
+				4478D554288D841000DF0552 /* MEMAppDelegate.m */,
+				4478D590288D862C00DF0552 /* MEMNoteList.h */,
+				4478D58E288D861C00DF0552 /* MEMNoteList.m */,
+				44EACDD1289373370082FBAD /* MEMNote.h */,
+				44EACDCF2893730F0082FBAD /* MEMNote.m */,
+				44AC9C79289B99BF00698EFD /* MEMPresentBigImageViewController.h */,
+				44AC9C77289B998A00698EFD /* MEMPresentBigImageViewController.m */,
+				446C28BC28900D630042FA31 /* MEMNoteViewCollectionViewCell.h */,
+				446C28BA28900D480042FA31 /* MEMNoteViewCollectionViewCell.m */,
+				44AC9C81289BE8C100698EFD /* MEMNoteViewCustomTextView.h */,
+				44AC9C82289BE8DC00698EFD /* MEMNoteViewCustomTextView.m */,
+				44AC9C89289BEE7B00698EFD /* MEMNoteViewCustomTextField.h */,
+				44AC9C87289BEE6100698EFD /* MEMNoteViewCustomTextField.m */,
+				44AC9C8A289BF04800698EFD /* MEMNoteViewCustomView.h */,
+				44AC9C8B289BF04800698EFD /* MEMNoteViewCustomView.m */,
+				4478D595288D879200DF0552 /* MEMNoteViewController.h */,
+				4478D593288D877D00DF0552 /* MEMNoteViewController.m */,
+				44A626BC2894C59200E7E2B8 /* MEMNoteViewControllerDelegate.h */,
+				44A626BF2894F25B00E7E2B8 /* MEMNoteListTableViewCell.h */,
+				44A626BD2894F24000E7E2B8 /* MEMNoteListTableViewCell.m */,
+				4478D58D288D857500DF0552 /* MEMNoteListViewController.h */,
+				4478D58B288D855700DF0552 /* MEMNoteListViewController.m */,
 				4478D562288D841400DF0552 /* Assets.xcassets */,
 				4478D567288D841400DF0552 /* Info.plist */,
 				4478D568288D841400DF0552 /* main.m */,
@@ -285,15 +300,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4478D58F288D861C00DF0552 /* MEMBackData.m in Sources */,
+				44AC9C88289BEE6100698EFD /* MEMNoteViewCustomTextField.m in Sources */,
+				44AC9C78289B998A00698EFD /* MEMPresentBigImageViewController.m in Sources */,
+				4478D58F288D861C00DF0552 /* MEMNoteList.m in Sources */,
 				4478D569288D841400DF0552 /* main.m in Sources */,
-				4478D58C288D855700DF0552 /* MEMTableViewController.m in Sources */,
-				4478D594288D877D00DF0552 /* MEMTextViewController.m in Sources */,
-				446C28BB28900D480042FA31 /* MEMMyCollectionViewCell.m in Sources */,
-				44A626BE2894F24000E7E2B8 /* MEMMyTableViewCell.m in Sources */,
-				4478D555288D841000DF0552 /* AppDelegate.m in Sources */,
-				44EACDD02893730F0082FBAD /* MEMDataItem.m in Sources */,
-				446C28B828900B950042FA31 /* MEMMyCollectionViewLayout.m in Sources */,
+				44AC9C8C289BF04800698EFD /* MEMNoteViewCustomView.m in Sources */,
+				4478D58C288D855700DF0552 /* MEMNoteListViewController.m in Sources */,
+				4478D594288D877D00DF0552 /* MEMNoteViewController.m in Sources */,
+				44AC9C83289BE8DC00698EFD /* MEMNoteViewCustomTextView.m in Sources */,
+				446C28BB28900D480042FA31 /* MEMNoteViewCollectionViewCell.m in Sources */,
+				44A626BE2894F24000E7E2B8 /* MEMNoteListTableViewCell.m in Sources */,
+				4478D555288D841000DF0552 /* MEMAppDelegate.m in Sources */,
+				44EACDD02893730F0082FBAD /* MEMNote.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
